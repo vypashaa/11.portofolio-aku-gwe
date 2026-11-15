@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aplikasi Pelanggaran & Poin Kedisiplinan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Aplikasi Catatan Pelanggaran & Point Kedisiplinan Siswa X RPL A</h2>
+
+    <label>Ketik / Pilih Nama Siswa:</label>
+    <input list="namaList" id="namaInput" onclick="this.showPicker()" placeholder="ketik / klik dua kali untuk memilih nama..." />
+    <datalist id="namaList"></datalist>
+
+    <label>Pilih Pelanggaran:</label>
+    <select id="pelanggaranSelect">
+        <option value="">-- Pilih Pelanggaran --</option>
+    </select>
+
+    <button onclick="tambahPelanggaran()">Tambah Catatan</button>
+    <button class="hapus-btn" onclick="hapusData()">Hapus Data Siswa Ini</button>
+
+    <h3>Catatan Pelanggaran:</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Pelanggaran</th>
+                <th>Poin</th>
+                <th>Waktu</th>
+            </tr>
+        </thead>
+        <tbody id="tabelPelanggaran"></tbody>
+    </table>
+
+    <div class="rekap">
+        <h3>Rekap Total Poin</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nama Siswa</th>
+                    <th>Total Poin</th>
+                    <th>Sanksi</th>
+                    <th>Keterangan</th>
+                </tr>
+            </thead>
+            <tbody id="rekapTabel"></tbody>
+        </table>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

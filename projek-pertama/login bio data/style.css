@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #eef1f5;
+}
+
+/* ===== NAVBAR MODEL PDF ===== */
+.topnav {
+    background-color: #1e40af;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* MENU JADI KOTAK PUTIH */
+.nav-left a {
+    background: white;
+    color: #1e40af;
+    padding: 5px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #c7d2fe;
+}
+
+.nav-left a:hover {
+    background: #e0e7ff;
+}
+
+
+/* ===== AREA KONTEN ===== */
+.dashboard-container {
+    padding: 40px;
+    min-height: 80vh;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* ===== LOGIN BOX ===== */
+.login-box {
+    max-width: 350px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* ===== FORM ===== */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* ===== TOMBOL UMUM ===== */
+button {
+    padding: 8px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* ===== WARNA TOMBOL MENU ===== */
+.btn-primary { background: #3498db; color: white; }
+.btn-success { background: #2ecc71; color: white; }
+.btn-danger  { background: #e74c3c; color: white; }
+.btn-warning { background: #f39c12; color: white; }
+.btn-dark    { background: #2c3e50; color: white; }
+
+/* ===== TABEL DATA ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+th {
+    background: #1e3a8a;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+img {
+    width: 70px;
+    border-radius: 5px;
+}
+
+/* ===== TOMBOL AKSI ===== */
+.btn-edit {
+    background-color: #f39c12;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.btn-print {
+    background-color: #3498db;
+    color: white;
+}
+
+.btn-edit:hover,
+.btn-delete:hover,
+.btn-print:hover {
+    opacity: 0.85;
+}
+
+/* Judul halaman model PDF */
+.judul-pdf {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1e3a8a;
+    margin-bottom: 15px;
+    border-left: 5px solid #3b82f6;
+    padding-left: 10px;
+}
+
+/* Area isi halaman */
+.dashboard-container {
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}

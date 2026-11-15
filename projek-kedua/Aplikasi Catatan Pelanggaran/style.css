@@ -1,0 +1,63 @@
+body { 
+    font-family: Arial, sans-serif; 
+    background: #f2f2f2; 
+    padding: 20px; 
+}
+
+.container { 
+    max-width: 850px; 
+    margin: auto; 
+    background: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}        
+
+label { 
+    font-weight: bold; 
+}
+
+input, select, button { 
+    padding: 8px; 
+    width: 100%; 
+    margin: 5px 0 15px; 
+    border-radius: 5px; 
+    border: 1px solid #aaa; 
+}
+
+button { 
+    background: #4CAF50; 
+    color: white; 
+    cursor: pointer; 
+}
+
+button:hover { 
+    background: #45a049; 
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 15px; 
+}
+
+table, th, td { 
+    border: 1px solid #888; 
+}
+
+th, td { 
+    padding: 10px; 
+    text-align: left; 
+}
+
+.rekap { 
+    margin-top: 30px; 
+}
+
+.hapus-btn { 
+    background: #d9534f; 
+}
+
+.hapus-btn:hover { 
+    background: #c9302c; 
+}

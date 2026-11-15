@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Input Data Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<div class="topnav">
+    <div class="nav-left">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="input.html">Input Data Siswa</a>
+        <a href="data.html">Tampilan Data Siswa</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </div>
+</div>
+
+<!-- KONTEN -->
+<div class="dashboard-container">
+    <div class="card">
+        <div class="judul-pdf">Input Data Siswa</div>
+
+        <label>Nama Siswa</label>
+        <input type="text" id="nama">
+
+        <label>Umur</label>
+        <input type="number" id="umur">
+
+
+        <label>Kelas</label>
+        <input type="text" id="kelas">
+
+        <label>Upload Foto</label>
+        <input type="file" id="foto">
+
+        <button class="btn-success" onclick="simpanData()">Simpan</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

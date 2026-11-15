@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="tampilkanData()">
+
+<!-- NAVBAR -->
+<div class="topnav">
+    <div class="nav-left">
+        <a href="dashboard.html">Dashboard</a>
+        <a href="input.html">Input Data Siswa</a>
+        <a href="data.html">Tampilan Data Siswa</a>
+        <a href="#" onclick="logout()">Logout</a>
+    </div>
+</div>
+
+<!-- AREA KONTEN -->
+<div class="dashboard-container">
+    <div class="card">
+        <div class="judul-pdf">Data Siswa</div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Foto</th>
+                    <th>Nama</th>
+                    <th>Umur</th>
+                    <th>Kelas</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="tabelData"></tbody>
+        </table>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
